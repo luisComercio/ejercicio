@@ -1,0 +1,96 @@
+form {
+    background-color: rgba(89,171,227,255);
+    width: 470px;
+    height: 540px;
+    /*centrar hor-vert*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#uno {
+    background-color: rgba(230,230,230,255);
+    border: 2px solid rgba(230,230,230,255);
+    border-radius: 5px;
+    padding-left: 40px;
+    width: 280px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#dos {
+    background-color: rgba(80,80,90,255);
+    border: 2px solid rgba(80,80,90,255);
+    border-radius: 5px;
+    padding-top: 10px;
+    position: relative;
+    margin-top: 455px;
+    margin-left: 110px;
+    color: white;
+    width: 305px;
+    height: 30px;
+    font-family: "arial";
+    font-size: 14px;
+}
+
+#primera {
+    width:60%;
+    height: 3px;
+    background-color: rgba(120,120,140,255);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+}
+
+hr {
+    width:90%;
+    height: 2px;
+    background-color: rgba(190,190,210,255);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    border: 0px;
+}
+
+h2 {
+    font-family: "alef";
+    color:rgba(120,120,140,255);
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: "arial";
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+input {
+    border: 0px;
+    background-color: rgba(230,230,230,255);
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: "arial";
+    color: rgba(108,108,108,255);
+
+}
+
+button {
+    color: gray;
+    font-family: "arial";
+    background-color: rgba(230,230,230,255);
+    margin-left: 145px;
+    padding: 10px;
+    border: solid 2.5px;
+    border-color: gray;
+}
+
+#dos i {
+    padding-left: 5px;
+}
